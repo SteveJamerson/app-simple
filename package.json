@@ -8,7 +8,8 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "style": "style-dictionary build --config ./src/styles/build.js"
     },
     "private": true,
     "dependencies": {
@@ -53,6 +54,7 @@
         "lint-staged": "^13.0.3",
         "prettier": "2.7.1",
         "protractor": "~7.0.0",
+        "style-dictionary": "^3.7.1",
         "ts-node": "~8.3.0",
         "tslint": "~6.1.0",
         "typescript": "~4.1.5"
