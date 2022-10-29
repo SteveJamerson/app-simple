@@ -1,0 +1,22 @@
+{
+    "color": {
+        "white": { "value": "#ffffff" },
+        "black": { "value": "#000000" },
+        "body": { "value": "{color.black}" },
+        "primary": {
+            "base": { "value": "#00c8b3" },
+            "hover": { "value": "#64d9cA" },
+            "text": { "value": "{color.white}" }
+        },
+        "danger": {
+            "base": { "value": "#eb4a46" }
+        },
+        "grayscale": {
+            "100": { "value": "#f8f9f1" },
+            "200": { "value": "#f6f6f6" },
+            "300": { "value": "#efeeed" },
+            "400": { "value": "#dddcdc" },
+            "800": { "value": "#333333" }
+        }
+    }
+}
